@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import FixedButton from '../componets/FixedButton';
 
 const EmailForm = () => {
   const [name, setName] = useState('');
@@ -53,6 +54,7 @@ const EmailForm = () => {
 
   return (
     <>
+    <FixedButton/>
       <div className='p-10 bg-[url("/bgSparkle.jpg")] bg-cover bg-center h-screen'>
         <div className="max-w-lg mx-auto rounded-lg shadow-lg  p-10 backdrop-blur-md ">
           <h1 className="text-2xl font-bold text-center mb-4 text-black">Send Email</h1>
