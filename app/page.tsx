@@ -1,5 +1,6 @@
 import React from 'react'
-import Nav from './componets/Nav/page'
+import Nav from './componets/Nav'
+
 
 const page = () => {
   return (
