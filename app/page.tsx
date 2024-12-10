@@ -53,15 +53,15 @@ const EmailForm = () => {
 
   return (
     <>
-      <div className='p-10 bg-[url("/space.jpeg")] bg-cover bg-center h-screen'>
-        <div className="max-w-lg mx-auto rounded-lg shadow-md  p-10 backdrop-blur-sm ">
+      <div className='p-10 bg-[url("/workout.jpg")] bg-cover bg-center h-screen'>
+        <div className="max-w-lg mx-auto rounded-lg shadow-lg  p-10 backdrop-blur-md ">
           <h1 className="text-2xl font-bold text-center mb-4 text-white">Send Email</h1>
           <form onSubmit={handleSubmit} className=''>
             <div className="mb-4">
               <label className="block text-sm font-medium text-white">Name</label>
               <input
                 type="text"
-                className="w-full p-2 mt-1 border rounded-md"
+                className="w-full p-2 mt-1 rounded-md"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
